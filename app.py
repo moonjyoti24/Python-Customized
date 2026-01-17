@@ -6,9 +6,9 @@ app = Flask(__name__)
 def get_db():
     return mysql.connector.connect(
         host="localhost",
-        user="your_user",
-        password="your_password",
-        database="your_database"
+        user="f832139",
+        password="password",
+        database="sampledb"
     )
 
 # INSERT
