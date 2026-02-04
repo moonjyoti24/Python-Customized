@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/square', methods=['GET'])
+@app.route('/', '/square', methods=['GET'])
 
 def hello():
     return "Welcome to Moonjyoti's Webpage!"
