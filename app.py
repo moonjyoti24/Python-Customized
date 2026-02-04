@@ -1,8 +1,13 @@
 from flask import Flask, request, render_template
+import os
 
 app = Flask(__name__)
 
 @app.route('/square', methods=['GET'])
+
+def hello():
+    return "Welcome to Moonjyoti's Webpage!"
+    
 def squarenumber():
     num = request.args.get('num')
 
