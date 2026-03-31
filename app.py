@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Welcome to Moonjyoti's Webpage. Wish you a happy new year!"
+    return "Welcome to Moonjyoti's Webpage. If you see this message, then you have deployed Containerized apps Successfully!"
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
